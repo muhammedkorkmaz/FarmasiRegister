@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      xmlns:app="http://schemas.android.com/apk/res-auto"
+      tools:showIn="navigation_view">
+
+    <group android:checkableBehavior="single">
+        <item
+                android:id="@+id/nav_anasayfa"
+                android:icon="@drawable/home"
+                android:title="Ana Sayfa"/>
+        <item
+                android:id="@+id/nav_uyeol"
+                android:icon="@drawable/signup"
+                android:title="Üye Ol"/>
+        <item
+                android:id="@+id/nav_uyegirisi"
+                android:icon="@drawable/login"
+                android:title="Üye Girişi"/>
+        <item
+                android:id="@+id/nav_katalog"
+                android:icon="@drawable/catalog"
+                android:title="Katalog"/>
+        <item
+                android:id="@+id/nav_alisveris"
+                android:icon="@drawable/shopping"
+                android:title="İndirimli Alışveriş"/>
+        <!--<item
+                android:id="@+id/nav_kazancsistemi"
+                android:icon="@drawable/earningsystem"
+                android:title="Kazanç Sistemi"/>
+        <item
+                android:id="@+id/nav_drctuna"
+                android:icon="@drawable/drcevdettuna"
+                android:title="Dr.C.Tuna(Ürün Tavsiyesi)"/>-->
+        <item
+                android:id="@+id/nav_kampanyalar"
+                android:icon="@drawable/campaign"
+                android:title="Kampanyalar"/>
+        <!--<item
+                android:id="@+id/nav_blog"
+                android:icon="@drawable/blog"
+                android:title="Blog"/>
+        <item
+                android:id="@+id/nav_forum"
+                app:actionViewClass="android.widget.ImageView"
+                android:icon="@drawable/forum"
+                android:title="Forum"/>
+        <item
+                android:id="@+id/nav_akademi"
+                android:icon="@drawable/academi"
+                android:title="Akademi"
+                app:actionViewClass="android.widget.ImageView"/>-->
+        <item
+                android:id="@+id/nav_etkinlikler"
+                app:actionViewClass="android.widget.ImageView"
+                android:icon="@drawable/hediye_ve_kampanyalar"
+                android:title="Etkinlikler"/>
+        <item
+                android:id="@+id/nav_iletisim"
+                android:icon="@drawable/hakkimizda"
+                android:title="İletişim"/>
+        <item
+                android:id="@+id/nav_paylas"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Paylas"/>
+        <item
+                android:id="@+id/nav_sss"
+                android:icon="@drawable/qqq"
+                android:title="SSS"/>
+    </group>
+
+</menu>

@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+                                    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+                                    android:id="@+id/card_view"
+                                    android:layout_width="match_parent"
+                                    android:layout_height="wrap_content"
+                                    android:layout_margin="5dp"
+                                    card_view:cardElevation="5dp"
+                                    card_view:cardMaxElevation="5dp"
+                                    card_view:layout_collapseParallaxMultiplier="0.0">
+
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+                    android:id="@+id/layout_feed"
+                    android:layout_width="fill_parent"
+                    android:layout_height="?android:attr/listPreferredItemHeight"
+                    android:padding="6dip">
+
+        <ImageView
+                android:id="@+id/imageView_feed"
+                android:layout_width="175px"
+                android:layout_height="175px"
+                android:layout_alignParentBottom="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="0dip"
+                android:contentDescription="TODO"
+                android:src="@drawable/farmasi_love"/>
+
+
+        <TextView
+                android:id="@+id/textView_feed"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_alignWithParentIfMissing="true"
+                android:layout_marginLeft="5dp"
+                android:layout_toRightOf="@id/imageView_feed"
+                android:autoText="true"
+                android:justificationMode="inter_word"
+                android:text="Example application"
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="14sp"/>
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>

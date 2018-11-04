@@ -1,0 +1,27 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+            android:id="@+id/action_face"
+            android:icon="@drawable/facebook"
+            android:title="Facebook"/>
+
+    <item
+            android:id="@+id/action_ins"
+            android:icon="@drawable/instagram"
+            android:title="Instagram"/>
+
+    <item
+            android:id="@+id/action_twit"
+            android:icon="@drawable/twitter"
+            android:title="Twitter"/>
+
+    <item
+            android:id="@+id/action_plus"
+            android:icon="@drawable/google_plus"
+            android:title="Google Plus"/>
+
+    <item
+            android:id="@+id/action_tube"
+            android:icon="@drawable/youtube"
+            android:title="YouTube"/>
+</menu>
